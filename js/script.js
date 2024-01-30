@@ -7,3 +7,49 @@
 // Solo una volta che il milestone 1 sarà completo e funzionante allora realizzeremo un form in pagina in cui l’utente potrà inserire i dati e visualizzare il calcolo finale con il prezzo.
 // Il recap dei dati e l'output del prezzo finale, andranno quindi stampati in pagina (il prezzo dovrà essere formattato con massimo due decimali, per indicare i centesimi sul prezzo).
 //  Questo richiederà un minimo di ricerca.
+
+
+const age = Number( prompt("quanti anni hai?"));
+
+if age {
+    
+}
+
+const costPromile= 0.21;
+
+const km = Number ( prompt("indica la distanza in kilometri"));
+
+let sum = km * costPromile;
+
+console.log(sum);
+
+
+// Sconti 
+
+const DiscountAge1 = 18;
+
+const DiscountAge2 = 64;
+
+if (age < DiscountAge1) {
+   sum = sum - (sum * 20 / 100);
+
+
+} 
+    
+
+if (age > DiscountAge2){
+    sum = sum - (sum * 40 / 100);
+}
+
+document.getElementById("distance").innerHTML = `La distanza selezionata è ${km} `;
+
+document.getElementById("age").innerHTML = `La tua età è ${age} `;
+
+document.getElementById("result").innerHTML = `Il costo del Biglietto è ${sum.toFixed(2)} `;
+
+
+
+
+
+
+
