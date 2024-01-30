@@ -63,25 +63,6 @@ ButtonElement.addEventListener(`click`,
 
 
 
-// const km = Number ( prompt("indica la distanza in kilometri"));
 
-// let sum = km * costPromile;
-
-
-
-
-// Sconti 
-
-
-
-// document.getElementById("distance").innerHTML = `La distanza selezionata è ${km} `;
-
-// document.getElementById("age").innerHTML = `La tua età è ${age} `;
-
-
-
-// 
-// Ristrutturazione del Codice 
-// 
 
 
